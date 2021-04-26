@@ -1,7 +1,7 @@
 # alby-test
 
 # Project Highlight
-This Spring Boot project is built on purpose of Alami Syariah assessment test
+This Spring Boot project is built on purpose of Alami Sharia assessment test
 
 It contains simple CRUD process of 2 table, Account and Transaction in PostgreSQL database
 In the /doTransaction process, apart from save it to PostgreSQL, Spring Boot will also work as producer and send Topics to Kafka
