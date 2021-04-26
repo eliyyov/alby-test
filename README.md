@@ -54,7 +54,7 @@ This project needs :
 
 ## Start MongoDB
 You can just run the GUI Apps or use command below
-* `cd` to `C:\Program Files\MongoDB\Server\4.4\bin>
+* `cd` to `C:\Program Files\MongoDB\Server\4.4\bin>`
 * enter command `mongod`
 
 ## Run Spring Boot
