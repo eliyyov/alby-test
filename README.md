@@ -64,14 +64,12 @@ Just run Spring Boot normally
 You can use the `Alby-Test.postman_collection.json` collection
 
 # Result
-* Kafka Topics
+## Kafka Topics
 ![Kafka Topics](https://user-images.githubusercontent.com/43963384/116109170-c00d9c00-a6de-11eb-81aa-f2404a1c35cc.PNG)
 
-* MongoDB Sink
+## MongoDB Sink
 ![MongoDB Sink](https://user-images.githubusercontent.com/43963384/116108523-2b0aa300-a6de-11eb-8d27-400b57a31d48.PNG)
 
-* PostgreSQL
+## PostgreSQL
 ![AccountTable](https://user-images.githubusercontent.com/43963384/116109861-648fde00-a6df-11eb-8b0b-33b05bf3fcbc.PNG)
 ![TransactionTable](https://user-images.githubusercontent.com/43963384/116109927-71accd00-a6df-11eb-9f93-e7a437c5f41f.PNG)
-
-
