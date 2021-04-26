@@ -65,7 +65,7 @@ You can use the `Alby-Test.postman_collection.json` collection
 
 # Result
 * Kafka Topics
-![Kafka Topics](https://user-images.githubusercontent.com/43963384/116108395-10382e80-a6de-11eb-9334-5725da7e1b72.PNG)
+![Kafka Topics](https://user-images.githubusercontent.com/43963384/116109170-c00d9c00-a6de-11eb-81aa-f2404a1c35cc.PNG)
 
 * MongoDB Sink
 ![MongoDB Sink](https://user-images.githubusercontent.com/43963384/116108523-2b0aa300-a6de-11eb-8d27-400b57a31d48.PNG)
