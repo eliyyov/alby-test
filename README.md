@@ -61,4 +61,4 @@ You can just run the GUI Apps or use command below
 Just run Spring Boot normally
 
 # Testing
-You can use the Postman collection that I provided
+You can use the `Alby-Test.postman_collection.json` collection
