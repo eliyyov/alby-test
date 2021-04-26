@@ -70,3 +70,11 @@ You can use the `Alby-Test.postman_collection.json` collection
 * MongoDB Sink
 ![MongoDB Sink](https://user-images.githubusercontent.com/43963384/116108523-2b0aa300-a6de-11eb-8d27-400b57a31d48.PNG)
 
+* PostgreSQL
+ * Account
+   ![AccountTable](https://user-images.githubusercontent.com/43963384/116109861-648fde00-a6df-11eb-8b0b-33b05bf3fcbc.PNG)
+
+ * Transaction
+   ![TransactionTable](https://user-images.githubusercontent.com/43963384/116109927-71accd00-a6df-11eb-9f93-e7a437c5f41f.PNG)
+
+
