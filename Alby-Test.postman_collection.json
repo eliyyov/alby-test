@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "cc4150a2-093a-4175-b008-66fd69b729cf",
+		"name": "Alby-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllAccount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getAllAccount",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAllAccount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createAccount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/createAccount?accountName=Wawan Setiawan&accountDob=1991-01-10&accountAddress=Kompleks Asia Serasi No 100",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createAccount"
+					],
+					"query": [
+						{
+							"key": "accountName",
+							"value": "Wawan Setiawan"
+						},
+						{
+							"key": "accountDob",
+							"value": "1991-01-10"
+						},
+						{
+							"key": "accountAddress",
+							"value": "Kompleks Asia Serasi No 100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllTransaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getAllTransaction",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAllTransaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "doTransaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountId\": 1,\r\n    \"transactionType\": 0\r\n    \"transactionDate\": \"2020-02-20\",\r\n    \"transactionAmount\": 1000000.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doTransaction",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doTransaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkTransactionByDate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkTransactionById",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/checkTransactionById",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"checkTransactionById"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
