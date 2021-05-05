@@ -51,6 +51,35 @@ This project needs :
  * Create Topics key on Kafka `.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Topic_Alby`
  * Start mongo-kafka-connect `.\bin\windows\connect-standalone.bat .\config\connect-standalone.properties .\config\MongoSinkConnector.properties`
  * Check Topics on Kafka `.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic Topic_Alby --from-beginning`
+ 
+ ```
+ Kafka Note
+ 
+ #Start zookeeper server
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+#####################################
+
+#Start kafka server
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+#Stop kafka server
+.\bin\windows\kafka-server-stop.bat .\config\server.properties
+
+#####################################
+
+#create topic
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Topic_Alby
+
+
+#check stream topic
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic Topic_Alby --from-beginning
+
+#####################################
+
+#Start mongo-kafka-connect
+.\bin\windows\connect-standalone.bat .\config\connect-standalone.properties .\config\MongoSinkConnector.properties
+ ```
 
 ## Start MongoDB
 You can just run the GUI Apps or use command below
